@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 const port = 5000;
 
-//------------------ hello ----------------
+//------------------ mongoose ----------------
 const mongoose = require("mongoose");
 const { update, findOneAndUpdate } = require("./module/company");
 const companyModel = require("./module/company");
